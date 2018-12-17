@@ -1,5 +1,5 @@
 # xmastree
-A xmas tree code challenge (minimun js code) to run in console
+A code challenge looking for the implementation with the minimum javascript code possible of a basic xmas tree.
 
 ## Description
 I recently knew about this code challenge and I tried to programm my own minimum javascript code to print a xmas tree with n-rows and a star "*" at the top.
