@@ -68,5 +68,6 @@ The first two rows are special ones: the asterisk and the first zero; so them wi
 `padStart(R+s,' ')`
 Finally, I need to center the each row of the xmas tree. So I need, for each row as many blank spaces as the total length of the row `R+s` where R is the total rows (the initial param) and s was calculated in previous step and it is zero to the first two rows and `rowIndex-1` to the other rows. For example, if the xmas tree was initilized with 5-rows, the last one will be a 9-zeros row so it will need no blank spaces at begining `R=5, rowIndex=5 (1 asterisk and 5 zeros rows » array index from 0 to 5), R+rowIndex-1=9 == row.length (padStart has no effect)`.
 
+Finally `join('\n')` just to join the array on a string to render the tree on the console where each array element is separated with a new-line.
 
-**Merry xmas, folks!**
+**Best regards and Merry xmas, folks!**
